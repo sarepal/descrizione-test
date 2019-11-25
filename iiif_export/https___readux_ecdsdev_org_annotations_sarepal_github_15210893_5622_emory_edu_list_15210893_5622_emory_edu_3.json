@@ -1,0 +1,6 @@
+{
+    "@id": "https://readux.ecdsdev.org/annotations/sarepal-github/15210893.5622.emory.edu/list/15210893.5622.emory.edu$3",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "resources": [],
+    "@type": "sc:AnnotationList"
+}

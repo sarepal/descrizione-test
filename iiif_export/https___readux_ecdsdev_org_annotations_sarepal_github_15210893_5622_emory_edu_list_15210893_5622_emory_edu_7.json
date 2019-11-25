@@ -1,0 +1,88 @@
+{
+    "@id": "https://readux.ecdsdev.org/annotations/sarepal-github/15210893.5622.emory.edu/list/15210893.5622.emory.edu$7",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "resources": [
+        {
+            "on": {
+                "full": "https://readux.ecdsdev.org/iiif/v2/15210893.5622.emory.edu/canvas/15210893.5622.emory.edu$7",
+                "within": {
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/15210893.5622.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "@type": "oa:SpecificResource",
+                "selector": {
+                    "value": "xywh=847,1087,180,128",
+                    "item": {
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M847.08967,1086.84896h90.13043v0h90.13043v63.98551v63.98551h-90.13043h-90.13043v-63.98551z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_a33f0944-46ab-4533-b0b7-273021ba621c\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "value": "xywh=847,1087,180,128",
+                            "@type": "oa:FragmentSelector"
+                        },
+                        "@type": "oa:Choice"
+                    },
+                    "@type": "oa:FragmentSelector"
+                }
+            },
+            "resource": {
+                "language": "en",
+                "chars": "<p>IN</p>",
+                "format": "text/html",
+                "@type": "dctypes:Text"
+            },
+            "annotatedBy": {
+                "name": "Sara E. Palmer"
+            },
+            "@id": "dd5f8908-3810-49ab-8468-eefa344e6ce4",
+            "motivation": "oa:commenting",
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@type": "oa:Annotation"
+        },
+        {
+            "on": {
+                "full": "https://readux.ecdsdev.org/iiif/v2/15210893.5622.emory.edu/canvas/15210893.5622.emory.edu$7",
+                "within": {
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/15210893.5622.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "@type": "oa:SpecificResource",
+                "selector": {
+                    "value": "xywh=253,850,1007,94",
+                    "item": {
+                        "endSelector": {
+                            "value": "//*[@id='b2a295cf-57db-4e02-952d-7f8711563b32']",
+                            "refinedBy": {
+                                "end": 3,
+                                "@type": "TextPositionSelector"
+                            },
+                            "@type": "XPathSelector"
+                        },
+                        "startSelector": {
+                            "value": "//*[@id='15ae3f11-04ad-47b8-9176-bbc9f7c8589d']",
+                            "refinedBy": {
+                                "start": 0,
+                                "@type": "TextPositionSelector"
+                            },
+                            "@type": "XPathSelector"
+                        },
+                        "@type": "RangeSelector"
+                    },
+                    "@type": "oa:FragmentSelector"
+                }
+            },
+            "resource": {
+                "language": "en",
+                "chars": "<p>note</p>",
+                "format": "text/html",
+                "@type": "dctypes:Text"
+            },
+            "annotatedBy": {
+                "name": "Sara E. Palmer"
+            },
+            "@id": "201243f4-9574-45c2-8356-153233d47e01",
+            "motivation": "oa:commenting",
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@type": "oa:Annotation"
+        }
+    ],
+    "@type": "sc:AnnotationList"
+}
